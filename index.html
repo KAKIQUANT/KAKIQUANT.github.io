@@ -1,0 +1,565 @@
+<DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <title>我的网页 - htmlpage.cn</title>
+
+    <link rel="preload" href="fonts/Unicons.woff2" as="font" type="font/woff2" crossorigin="">
+    <link rel="shortcut icon" href="img/favicon.png">
+    <link rel="stylesheet" href="css/plugins.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style0.css">
+
+</head>
+<body>
+    <nav id="sticky-navbar" class="navbar navbar-expand-lg center-nav transparent navbar-light navbar-clone fixed">
+        <div class="container flex-lg-row flex-nowrap align-items-center">
+            <div class="navbar-brand w-100">
+                <a href="./index.html"></a>
+            </div>
+            <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
+                <div class="offcanvas-header d-lg-none">
+                    <h3 class="text-white fs-30 mb-0">Lapus</h3>
+                    <button type="button" data-bs-dismiss="offcanvas" aria-label="Close" class="btn-close btn-close-white">Send</button>
+                </div>
+                <div class="offcanvas-body ms-lg-auto d-flex flex-column h-100">
+                    <ul class="navbar-nav">
+                            <li class="nav-item"><a href="kakiquant.com" class="nav-link">首页</a></li>
+                            <li class="nav-item dropdown">
+                                <a href="#" data-bs-toggle="dropdown" class="nav-link dropdown-toggle">业内资讯</a>
+                                <ul class="dropdown-menu">
+                                    <li class="dropdown dropdown-submenu dropend">
+                                        <a href="#" data-bs-toggle="dropdown" class="dropdown-item dropdown-toggle">用户体验</a>
+                                        <ul class="dropdown-menu">
+                                            <li class="nav-item"><a href="./services.html" class="dropdown-item">交互体验设计</a></li>
+                                            <li class="nav-item"><a href="./services2.html" class="dropdown-item">体验与用户行为</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown dropdown-submenu dropend">
+                                        <a href="#" data-bs-toggle="dropdown" class="dropdown-item dropdown-toggle">视觉设计</a>
+                                        <ul class="dropdown-menu">
+                                            <li class="nav-item"><a href="./about.html" class="dropdown-item">界面设计</a></li>
+                                            <li class="nav-item"><a href="./about2.html" class="dropdown-item">平面设计</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item"><a href="./pricing.html" class="dropdown-item">架构设计</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" data-bs-toggle="dropdown" class="nav-link dropdown-toggle">成功案例</a>
+                                <div class="dropdown-menu dropdown-lg">
+                                    <div class="dropdown-lg-content">
+                                        <div>
+                                            <h6 class="dropdown-header">体验设计</h6>
+                                            <ul class="list-unstyled">
+                                                <li><a href="./projects.html" class="dropdown-item">placeholder</a></li>
+
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <h6 class="dropdown-header">交互设计</h6>
+                                            <ul class="list-unstyled">
+                                                <li><a href="./someday.html" class="dropdown-item">placeholder</a></li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" data-bs-toggle="dropdown" class="nav-link dropdown-toggle">加入我们</a>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item"><a href="./blog.html" class="dropdown-item">企业介绍</a></li>
+                                    <li class="nav-item"><a href="./blog2.html" class="dropdown-item">企业文化</a></li>
+                                    <li class="dropdown dropdown-submenu dropend">
+                                        <a href="#" data-bs-toggle="dropdown" class="dropdown-item dropdown-toggle">联系方式</a>
+                                        <ul class="dropdown-menu">
+                                            <li class="nav-item"><a href="./blog-post.html" class="dropdown-item">联系电话</a></li>
+                                            <li class="nav-item"><a href="./blog-post2.html" class="dropdown-item">电子邮件</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    <div class="offcanvas-footer d-lg-none">
+                        <div>
+                            <a href="mailto:first.last@email.com" class="link-inverse">help@lapus.cn</a><br>
+                            13799264013
+                            <nav class="nav social social-white mt-4">
+                                <a href="#"><i class="uil uil-twitter"></i></a>
+                                <a href="#"><i class="uil uil-facebook-f"></i></a>
+                                <a href="#"><i class="uil uil-dribbble"></i></a>
+                                <a href="#"><i class="uil uil-instagram"></i></a>
+                                <a href="#"><i class="uil uil-youtube"></i></a>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="navbar-other w-100 d-flex ms-auto">
+                <ul class="navbar-nav flex-row align-items-center ms-auto">
+                    <li class="nav-item dropdown language-select text-uppercase">
+                        <a href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-item dropdown-toggle">中文</a>
+                        <ul class="dropdown-menu">
+                            <li class="nav-item"><a href="#" class="dropdown-item">英语</a></li>
+                            <li class="nav-item"><a href="#" class="dropdown-item">德语</a></li>
+                            <li class="nav-item"><a href="#" class="dropdown-item">法语</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a data-bs-toggle="offcanvas" data-bs-target="#offcanvas-info" class="nav-link"><i class="uil uil-info-circle"></i></a></li>
+                    <li class="nav-item d-lg-none"><button type="button" class="hamburger offcanvas-nav-btn">Send</button></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="content-wrapper">
+        <header class="wrapper bg-soft-primary">
+            <link rel="stylesheet" href="css/plugins.css">
+            <link rel="stylesheet" href="css/style.css">
+            <header data-image-src="img/bg6.png" id="iheckb3" class="wrapper image-wrapper bg-image pb-1 c101766 bg-overlay text-white">
+                <nav class="navbar navbar-expand-lg classic transparent">
+                    <img src="img/kakilogo.jpg" class="c106205">
+                    <div class="container flex-lg-row flex-nowrap align-items-center">
+                        <div class="navbar-brand w-100 navbar-white"><a href="./index.html"></a></div>
+                        <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
+                            <div class="offcanvas-header d-lg-none">
+                                <a href="./index.html"><img src="img/logo-small-white.svg" srcset="img/logo-small-white.svg" alt=""></a>
+                                <button type="button" data-bs-dismiss="offcanvas" aria-label="Close" class="btn-close btn-close-white">Send</button>
+                            </div>
+                            <div class="offcanvas-body ms-lg-auto d-flex flex-column h-100 navbar-dark">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item"><a href="#" class="nav-link text-white">首1页</a></li>
+                                    <li class="nav-item dropdown">
+                                        <a href="#" data-bs-toggle="dropdown" class="nav-link dropdown-toggle text-white">行业内咨询</a>
+                                        <ul class="dropdown-menu">
+                                            <li class="nav-item"><a href="#" class="dropdown-item">行业动态</a></li>
+                                            <li class="dropdown dropdown-submenu dropend">
+                                                <a href="#" data-bs-toggle="dropdown" class="dropdown-item dropdown-toggle">网站设计</a>
+                                                <ul class="dropdown-menu">
+                                                    <li class="dropdown dropdown-submenu dropend">
+                                                        <a href="#" data-bs-toggle="dropdown" class="dropdown-item dropdown-toggle">用户体验</a>
+                                                        <ul class="dropdown-menu">
+                                                            <li class="nav-item"><a href="#" class="dropdown-item">视觉设计</a></li>
+                                                            <li class="nav-item"><a href="#" class="dropdown-item">界面设计</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="nav-item"><a href="#" class="dropdown-item">平面设计</a></li>
+                                                    <li class="nav-item"><a href="#" class="dropdown-item">动画设计</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="nav-item"><a href="#" class="dropdown-item">架构设计</a></li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="nav-item dropdown dropdown-mega">
+                                        <ul class="dropdown-menu mega-menu">
+                                            <li class="mega-menu-content">
+                                                <div class="row gx-0 gx-lg-3">
+                                                    <div class="col-lg-6">
+                                                        <h6 class="dropdown-header">placeholder</h6>
+                                                        <div class="row gx-0">
+                                                            <div class="col-lg-6">
+                                                                <ul class="list-unstyled">
+                                                                    <li><a href="#" class="dropdown-item">placeholder</a></li>
+
+                                                                </ul>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-3">
+                                                        <h6 class="dropdown-header">placeholder</h6>
+                                                        <ul class="list-unstyled">
+                                                            <li><a href="#" class="dropdown-item">placeholder</a></li>
+
+                                                        </ul>
+                                                    </div>
+
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a href="#" data-bs-toggle="dropdown" class="nav-link dropdown-toggle text-white">交互设计</a>
+                                        <div class="dropdown-menu dropdown-lg">
+                                            <div class="dropdown-lg-content">
+                                                <div>
+                                                    <h6 class="dropdown-header">placeholder</h6>
+                                                    <ul class="list-unstyled">
+                                                        <li><a href="#" class="dropdown-item">placeholder</a></li>
+
+                                                    </ul>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a href="#" data-bs-toggle="dropdown" class="nav-link dropdown-toggle text-white">加入我们</a>
+                                        <div class="dropdown-menu dropdown-lg">
+                                            <div class="dropdown-lg-content">
+                                                <div>
+                                                    <h6 class="dropdown-header">placeholder</h6>
+                                                    <ul class="list-unstyled">
+                                                        <li><a href="#" class="dropdown-item">placeholder</a></li>
+
+                                                    </ul>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+
+                        </div>
+
+                        <div class="navbar-other ms-lg-4">
+                            <ul class="navbar-nav flex-row align-items-center ms-auto">
+                                <li class="nav-item"><a data-bs-toggle="offcanvas" data-bs-target="#offcanvas-info" class="nav-link text-white"><i class="uil uil-info-circle"></i></a></li>
+                                <li class="nav-item d-none d-md-block"></li>
+                                <li class="nav-item d-lg-none"><button type="button" class="hamburger offcanvas-nav-btn">Send</button></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                <div id="iw6s3af" class="c106770">链卡量化</div>
+                <div id="ifphu58" class="c108096">Quant For All</div>
+            </header>
+        </header>
+        <section class="wrapper bg-soft-primary image-wrapper">
+            <link rel="stylesheet" href="css/bootstrap.min.css">
+            <link rel="stylesheet" href="css/plugins.css">
+            <link rel="stylesheet" href="css/style.css">
+            <section class="wrapper bg-soft-primary">
+                <div class="container pt-10 pb-15 pt-md-14 pb-md-20 text-center">
+                    <div class="row">
+                        <div data-cues="slideInDown" data-group="page-title" class="col-md-10 col-lg-8 col-xl-8 col-xxl-6 mx-auto mb-13">
+                            <h1 class="display-1 mb-4">面向散户的量化平台</h1>
+                            <p class="lead fs-lg px-xl-12 px-xxl-6 mb-7">所见即所得，无需代码经验轻松上手</p>
+                            <div data-cues="slideInDown" data-group="page-title-buttons" data-delay="600" class="d-flex justify-content-center">
+                                <span><a href="kakiquant.com" class="btn btn-primary rounded mx-1">马上使用</a></span>
+                                <span><a class="btn btn-green rounded mx-1">联系我们</a></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="wrapper bg-light">
+                <div class="container pb-14 pb-md-16 mb-lg-21 mb-xl-23">
+                    <div class="row gx-0 mb-16 mb-mb-20">
+                        <div data-cues="" data-group="images" data-delay="1500" class="col-9 col-sm-10 col-lg-9 mx-auto mt-n15 mt-md-n20">
+                            <img data-cue="slideInRight" src="img/sa2.jpg" srcset="img/sa2@2x.jpg 2x" alt="" class="position-absolute rounded shadow-lg c113056">
+                            <img data-cue="slideInLeft" src="img/sa3.jpg" srcset="img/sa3@2x.jpg 2x" alt="" class="position-absolute rounded shadow-lg c113063">
+                            <img data-cue="slideInUp" src="img/微信图片_20240604205346.jpg" srcset="img/sa1@2x.jpg 2x" alt="" class="img-fluid mx-auto rounded shadow-lg">
+                            <img data-cue="slideInLeft" src="img/sa4.jpg" srcset="img/sa4@2x.jpg 2x" alt="" class="position-absolute rounded shadow-lg c113070">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <script src="js/plugins.js"></script>
+            <script src="js/theme.js"></script>
+            <div class="container pt-10 pb-18 pb-md-20 pt-md-14 pb-lg-21 text-center">
+                <link rel="stylesheet" href="css/plugins.css">
+                <link rel="stylesheet" href="css/style.css">
+                <link rel="stylesheet" href="css/bootstrap.min.css">
+                <section class="wrapper">
+                    <div class="container py-14 py-md-16">
+                        <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
+                            <div class="col-md-8 col-lg-6 col-xl-5 order-lg-2 position-relative">
+                                <div data-rellax-speed="1" id="ikn6vz" class="shape bg-soft-primary rounded-circle rellax w-20 h-20 c90938"></div>
+                                <figure class="rounded"><img src="img/微信图片_20240604171534.png" alt="" class="c90957"></figure>
+                            </div>
+                            <div class="col-lg-6">
+                                <h2 class="mb-3">关于我们</h2>
+                                <p class="lead fs-lg">所见即所得，无需代码经验轻松上手<br></p>
+                                <p class="mb-6">KakiQuant 是一个创新的量化金融和区块链项目，我们旨在通过先进的分析工具和区块链技术，打造普惠金融体系，使普通投资者也能享有专业量化机构的工具，提高投资决策质量。</p>
+                                <div class="row gx-xl-10 gy-6">
+                                    <div class="col-md-6">
+                                        <div class="d-flex flex-row">
+                                            <div><img src="img/target.svg" alt="" class="icon-svg icon-svg-sm me-4"></div>
+                                            <div>
+                                                <h4 class="mb-1">产品目标</h4>
+                                                <p class="mb-0">为大众服务，使知识来源于大众，并回归于大众</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="d-flex flex-row">
+                                            <div><img src="img/award-2.svg" alt="" class="icon-svg icon-svg-sm me-4"></div>
+                                            <div>
+                                                <h4 class="mb-1">产品价值</h4>
+                                                <p class="mb-0">拖拽式策略创建，化繁为简，支持散户零基础参与交易</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <link rel="stylesheet" href="css/bootstrap.min.css">
+                        <section data-block-type="features" data-id="4" draggable="true" class="fdb-block">
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col-12 text-center"><h1>设计特色</h1></div>
+                                </div>
+                                <div class="row text-center mt-5">
+                                    <div class="col-12 col-sm-4">
+                                        <img alt="image" src="img/img_round.svg" class="fdb-icon">
+                                        <h3><strong>web2+web3</strong></h3>
+                                        <p>我们使用了结合Web 2.0和Web 3.0技术的方法，最大限度拓展用户市场，确保产品能在全球范围内满足不同地区的监管要求，同时降低用户接入门槛。通过这种融合方法，我们旨在推动区块链技术的大规模采用，特别是在加密资产尚未完全合法化的区域。此外，我们的解决方案强调保护用户隐私和数据安全，支持可持续发展目标，并通过创新的跨链技术实现数据和资源的有效整合。这不仅有助于提高交易效率，还能降低交易成本，使所有用户都能享受到区块链技术带来的好处。</p>
+                                    </div>
+                                    <div class="col-12 col-sm-4 pt-4 pt-sm-0">
+                                        <img alt="image" src="img/img_round.svg" class="fdb-icon">
+                                        <h3><strong>Blockchain</strong></h3>
+                                        <p>我们使用区块链技术，在Conflux链上开发，这是一条获得中国政府支持的公链，确保我们的解决方案符合国内严格的监管要求。通过在Conflux上开发，我们能够利用其高效率和低成本的交易特性，同时享受到官方认可的合法性和安全性。此外，我们的平台也支持跨链技术，使得数据和资产可以在不同的区块链间安全、无缝地转移和交互。这样的技术实现不仅为用户提供了一个更广阔的市场和更多样的服务选项，也大大增强了项目的国际竞争力和市场吸引力。</p>
+                                    </div>
+                                    <div class="col-12 col-sm-4 pt-4 pt-sm-0">
+                                        <img alt="image" src="img/img_round.svg" class="fdb-icon">
+                                        <h3><strong>Refi</strong></h3>
+                                        <p>采用Refi（可再生金融）方法，我们在低碳链上推进项目，积极拥抱可持续发展目标。通过这种方式，我们不仅支持环保倡议，还通过智能合约和区块链技术确保交易的透明度和可追踪性。这样的应用使得我们能够有效减少整个金融生态系统的碳足迹，同时为投资者提供符合ESG（环境、社会和公司治理）标准的投资选项。此外，利用低碳链的特性，我们的平台能够优化操作效率，减少能耗，实现真正意义上的绿色金融。</p>
+                                    </div>
+                                </div>
+                                <div class="row mt-5">
+                                    <div class="col-12"></div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </section>
+            </div>
+        </section>
+        <section class="wrapper bg-light">
+            <div class="container pb-23 pb-md-25">
+                <div class="row mb-14">
+                    <div id="itqiutc" class="c111539">在我们团队里，你可以获得：</div>
+                    <div class="col-12 mt-n18 mt-md-n20 mt-lg-n21 position-relative">
+                        <div data-rellax-speed="1" id="i7ftgk" class="shape bg-dot red rellax w-16 h-18 c54387"></div>
+                        <div data-rellax-speed="1" id="iu0asj" class="shape pale-primary w-19 h-19 rellax c54402"><img src="img/hex.svg" alt="" class="svg-inject icon-svg w-100 h-100"></div>
+                        <figure class="rounded"><img src="img/about18.jpg" alt=""></figure>
+                    </div>
+                </div>
+                <div class="row gx-lg-8 gx-xl-12 gy-8">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="d-flex flex-row">
+                            <div>
+                                <h4 class="mb-1">专业培训</h4>
+                                <p class="mb-0">量化分析、多因子模型、机器学习、Web技术等培训课程。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="d-flex flex-row">
+                            <div>
+                                <h4 class="mb-1">开放工作环境</h4>
+                                <p class="mb-0">鼓励互助成长，提供开放包容的研发氛围。 </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="d-flex flex-row">
+                            <div>
+                                <h4 class="mb-1">数据与计算资源</h4>
+                                <p class="mb-0">提供GPU服务器，高质量金融数据 。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="d-flex flex-row">
+                            <div>
+                                <h4 class="mb-1">实际应用机会</h4>
+                                <p class="mb-0">参与量化模型和区块链应用开发。 </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="d-flex flex-row">
+                            <div>
+                                <h4 class="mb-1">合作与内推</h4>
+                                <p class="mb-0">与知名量化研究员合作，提供内推机会。 </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="d-flex flex-row">
+                            <div>
+                                <h4 class="mb-1">股权激励</h4>
+                                <p class="mb-0">参与开发的合作者可获得KakiQuant 1%的股权。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="wrapper bg-soft-primary"></section>
+        <section class="wrapper bg-light">
+            <div class="container py-14 py-md-16">
+                <div class="row text-center">
+                    <div class="col-xl-10 mx-auto">
+                        <h2 class="fs-15 text-uppercase text-primary mb-3">工作岗位</h2>
+                        <h3 class="display-4 mb-10 px-xxl-15">我们一直在寻找优秀的你加入我们的团队，看看我们现在的空缺职位</h3>
+                    </div>
+                </div>
+                <div class="row gy-6">
+                    <!-- 量化金融分析师 -->
+<div class="col-md-6 col-lg-4">
+    <a href="#" class="card shadow-lg lift h-100">
+        <div class="card-body p-5 d-flex flex-row">
+            <div></div>
+            <div>
+                <span class="badge bg-pale-blue text-blue rounded py-1 mb-2">全职</span>
+                <h4 class="mb-1">量化金融分析师</h4>
+                <ul class="mb-0 text-body">
+                    <li>专业知识：具备量化交易和因子分析等相关经验。</li>
+                    <li>编程技能：精通Python，熟悉NumPy, Pandas, PyTorch。</li>
+                    <li>研究能力：能独立进行量化模型和策略的研发。</li>
+                </ul>
+            </div>
+        </div>
+    </a>
+</div>
+
+<!-- Web3开发者 -->
+<div class="col-md-6 col-lg-4">
+    <a href="#" class="card shadow-lg lift h-100">
+        <div class="card-body p-5 d-flex flex-row">
+            <div></div>
+            <div>
+                <span class="badge bg-pale-blue text-blue rounded py-1 mb-2">全职</span>
+                <h4 class="mb-1">Web3开发者</h4>
+                <ul class="mb-0 text-body">
+                    <li>专业知识：具有Web3和区块链开发经验。</li>
+                    <li>编程技能：熟悉Solidity和智能合约的开发。</li>
+                    <li>创新能力：能快速适应新技术，设计和实现新的用户界面及后端解决方案。</li>
+                </ul>
+            </div>
+        </div>
+    </a>
+</div>
+
+<!-- Web2前端开发者 -->
+<div class="col-md-6 col-lg-4">
+    <a href="#" class="card shadow-lg lift h-100">
+        <div class="card-body p-5 d-flex flex-row">
+            <div></div>
+            <div>
+                <span class="badge bg-pale-blue text-blue rounded py-1 mb-2">全职</span>
+                <h4 class="mb-1">Web2前端开发者</h4>
+                <ul class="mb-0 text-body">
+                    <li>专业知识：具有传统Web开发经验。</li>
+                    <li>编程技能：精通JavaScript、HTML/CSS，并熟悉Vue3或React。</li>
+                    <li>创新能力：能快速适应新技术，设计和实现新的用户界面。</li>
+                </ul>
+            </div>
+        </div>
+    </a>
+</div>
+
+<!-- Web2后端开发者 -->
+<div class="col-md-6 col-lg-4">
+    <a href="#" class="card shadow-lg lift h-100">
+        <div class="card-body p-5 d-flex flex-row">
+            <div></div>
+            <div>
+                <span class="badge bg-pale-blue text-blue rounded py-1 mb-2">全职</span>
+                <h4 class="mb-1">Web2后端开发者</h4>
+                <ul class="mb-0 text-body">
+                    <li>专业知识：具有传统Web开发经验。</li>
+                    <li>编程技能：精通Node.js或Python，并熟悉SpringBoot、Django、Flask或FastAPI。</li>
+                    <li>创新能力：能快速适应新技术，实现后端解决方案。</li>
+                </ul>
+            </div>
+        </div>
+    </a>
+</div>
+
+<!-- 机器学习工程师 -->
+<div class="col-md-6 col-lg-4">
+    <a href="#" class="card shadow-lg lift h-100">
+        <div class="card-body p-5 d-flex flex-row">
+            <div></div>
+            <div>
+                <span class="badge bg-pale-blue text-blue rounded py-1 mb-2">全职</span>
+                <h4 class="mb-1">机器学习工程师</h4>
+                <ul class="mb-0 text-body">
+                    <li>专业知识：在量化金融领域应用机器学习。</li>
+                    <li>编程技能：精通Python，并熟悉机器学习库。</li>
+                    <li>研究能力：能独立开发和优化量化交易模型。</li>
+                </ul>
+            </div>
+        </div>
+    </a>
+</div>
+
+<!-- 区块链技术专家 -->
+<div class="col-md-6 col-lg-4">
+    <a href="#" class="card shadow-lg lift h-100">
+        <div class="card-body p-5 d-flex flex-row">
+            <div></div>
+            <div>
+                <span class="badge bg-pale-blue text-blue rounded py-1 mb-2">全职</span>
+                <h4 class="mb-1">区块链技术专家</h4>
+                <ul class="mb-0 text-body">
+                    <li>专业知识：深入了解区块链技术和应用。</li>
+                    <li>编程技能：熟悉区块链相关编程和智能合约。</li>
+                    <li>创新能力：能在区块链领域内设计和实施新技术。</li>
+                </ul>
+            </div>
+        </div>
+    </a>
+</div>
+
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer class="bg-navy text-inverse">
+    <div class="container pt-15 pt-md-17 pb-13 pb-md-15">
+        <div class="d-lg-flex flex-row align-items-lg-center">
+            <h3 class="display-4 mb-6 mb-lg-0 pe-lg-20 pe-xl-22 pe-xxl-25 text-white">如遇到问题请与我们联系，感谢支持！</h3>
+            <a href="kakiquant.com" class="btn btn-primary rounded-pill mb-0 text-nowrap">我要留言</a>
+        </div>
+        <hr class="mt-11 mb-12">
+        <div class="row gy-6 gy-lg-0">
+            <div class="col-md-4 col-lg-3">
+                <div class="widget">
+                    <p class="mb-4">© 2024 IDK<br class="d-none d-lg-block">All rights reserved.</p>
+                    <nav class="nav social social-white">
+                        <a href="#"><i class="uil uil-twitter"></i></a>
+                        <a href="#"><i class="uil uil-facebook-f"></i></a>
+                        <a href="#"><i class="uil uil-dribbble"></i></a>
+                        <a href="#"><i class="uil uil-instagram"></i></a>
+                        <a href="#"><i class="uil uil-youtube"></i></a>
+                    </nav>
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-3">
+                <div class="widget">
+                    <h4 class="widget-title text-white mb-3">联系我们</h4>
+                    <a id="inr85p-2" draggable="true" href="mail:help@lapus.cn" class="hover c82711">recruitment@kakiquant.com</a>
+                    <span id="inkw5q" class="c82731"></span><br>
+                    15178880551
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-3">
+                <div class="widget">
+                    <h4 class="widget-title text-white mb-3">了解更多</h4>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="#">关于我们</a></li>
+                        <li><a href="#">解决方案</a></li>
+                        <li><a href="#">项目案例</a></li>
+                        <li><a href="#">隐私条款</a></li>
+                        <li><a href="#">相关法规</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-3"> <!-- New Column for Image and Title -->
+                <h4 class="text-white mb-3">欢迎加入招新群</h4>
+                <img src="img/Group.jpg" class="c83594" style="width: 100%; height: auto;">
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <script src="js/plugins.js"></script>
+    <script src="js/theme.js"></script>
+</body>
+</html>

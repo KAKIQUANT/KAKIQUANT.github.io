@@ -1,0 +1,233 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 16px;
+}
+
+.hero img {
+    max-height: 380px;
+    width: auto;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.htmlpage-row {
+    display: table;
+    padding: 10px;
+    width: 100%;
+}
+
+.htmlpage-cell {
+    width: 8%;
+    display: table-cell;
+    height: 75px;
+}
+
+.c54387 {
+    top: 1rem;
+    left: -3.2rem;
+}
+
+.c54402 {
+    bottom: 2rem;
+    right: -3rem;
+}
+
+.c82711, .c82731 {
+    word-spacing: 1px;
+}
+
+.c83594 {
+    color: black;
+    border: 0 solid;
+    margin: 0;
+    width: 125px;
+    height: 200px;
+}
+
+.fdb-block {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    padding: 100px 0;
+    color: rgb(68, 68, 68);
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.fdb-block .text-h1, .fdb-block h1 {
+    font-size: 1.75rem;
+    margin: 0.3em 0 0.5em;
+    font-weight: 400;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.mb-0 {
+    text-align: left;
+}
+
+.c89693 {
+    padding: 10px;
+    font-weight: 600;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container.pb-23.pb-md-25 {
+    height: 800px;
+}
+
+.c90938 {
+    top: -2rem;
+    right: -1.9rem;
+}
+
+.container.flex-lg-row.flex-nowrap.align-items-center {
+    text-align: right;
+}
+
+.fdb-block img.fdb-icon {
+    width: 60px;
+}
+
+.pt-4 {
+    padding-top: 1.5rem !important;
+}
+
+.mt-5 {
+    margin-top: 3rem !important;
+}
+
+.fdb-block img + h3, .fdb-block img + h4, .fdb-block img + p {
+    margin-top: 20px;
+}
+
+.fdb-block .text-h3, .fdb-block h3 {
+    font-size: 0.875rem;
+    margin: 0.3em 0 0.5em;
+    font-weight: 400;
+}
+
+.c101766 {
+    background-image: url('img/bg3.jpg');
+}
+
+.wrapper.image-wrapper.bg-image.pb-1.c101766 {}
+
+.c106205 {
+    color: black;
+    width: 80px;
+    height: 80.48283276367187px;
+}
+
+.c106770 {
+    padding: 10px;
+    text-align: center;
+    font-size: 100px;
+}
+
+.c108096 {
+    padding: 10px;
+    text-align: center;
+    font-size: 35px;
+}
+
+.c111539 {
+    padding: 10px;
+}
+
+.c113056 {
+    top: 20%;
+    right: -10%;
+    max-width: 30%;
+    height: auto;
+}
+
+.c113063 {
+    top: 10%;
+    left: -10%;
+    max-width: 30%;
+    height: auto;
+}
+
+.c113070 {
+    bottom: 10%;
+    left: -13%;
+    max-width: 30%;
+    height: auto;
+}
+
+.container.pb-14.pb-md-16.mb-lg-21.mb-xl-23 {
+    height: 100px;
+}
+
+.display-1.mb-4 {
+    font-size: 60px;
+}
+
+.img-fluid.mx-auto.rounded.shadow-lg {
+    background-image: url('img/微信图片_20240604205346.jpg');
+    bottom: 100px;
+    opacity: 1;
+}
+
+.mb-3 {
+    font-weight: 900;
+    line-height: 120%;
+}
+
+.col-12.col-sm-4.pt-4.pt-sm-0 {
+    border: 0px solid;
+    background-image: none;
+    background-repeat: repeat;
+    background-position: left top;
+    background-attachment: scroll;
+    background-size: auto;
+}
+
+.col-12.col-sm-4.pt-4.pt-sm-0.rounded-pill {
+    width: 100px;
+    padding: 1.5rem !important 0 0 0;
+    border: 2px solid #1818e6;
+    flex-grow: 71;
+}
+
+.row.gx-0.mb-16.mb-mb-20 {
+    height: 100px;
+}
+
+@media (max-width: 768px) {
+    .htmlpage-cell {
+        width: 100%;
+        display: block;
+    }
+}
+
+@media (min-width: 576px) {
+    .pt-sm-0 {
+        padding-top: 0px !important;
+    }
+}
